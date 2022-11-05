@@ -336,7 +336,7 @@ en:
     search:
       start: Start searching...
   landing:
-    about: "%{href} is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
+    about: "Tukar info, kirim pesan, buat ruang meeting antar anggota tim hanya dengan sentuhan jari!"
     welcome: Welcome to Vicon Kartika.
     video: Watch our tutorial on using Greenlight
     upgrade: Show me how to upgrade to 2.0!

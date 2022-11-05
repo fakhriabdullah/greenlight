@@ -292,7 +292,7 @@ id_ID:
     search:
       start: Temukan ...
   landing:
-    about: "%{href} adalah antar-muka untuk server BigBlueButton yang memungkinkan Anda membentuk ruang-ruang pertemuan, atau bergabung ke ruang pertemuan lain melalui tautan yang singkat dan nyaman digunakan."
+    about: "Tukar info, kirim pesan, buat ruang meeting antar anggota tim hanya dengan sentuhan jari!"
     welcome: Selamat datang di Vicon Kartika.
     video: Saksiksan video petunjuk penggunaan Greenlight
     upgrade: Cara upgrade ke versi 2.0!
