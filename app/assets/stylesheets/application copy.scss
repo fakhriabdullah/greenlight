@@ -80,7 +80,6 @@ a {
   position: relative;
   height: auto;
   min-height: calc(100% - #{$header-height} - #{$footer-height});
-  background: #ffffff image-url("motif_loreng_BW_1440x810e.png") no-repeat left top;
 }
 
 .footer {
@@ -90,7 +89,6 @@ a {
 
 .background {
   background-color: $background-color;
-  opacity: 0.8;
 }
 
 .error-section {
