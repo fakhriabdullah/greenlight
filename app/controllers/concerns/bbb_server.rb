@@ -72,6 +72,7 @@ module BbbServer
       "meta_bbb-origin-version": Greenlight::Application::VERSION,
       "meta_bbb-origin": "Greenlight",
       "meta_bbb-origin-server-name": options[:host]
+      logo: @settings.get_value("Branding Image")
     }
 
     create_options[:muteOnStart] = options[:mute_on_start] if options[:mute_on_start]
