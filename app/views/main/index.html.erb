@@ -19,6 +19,24 @@
       <div class="col-md-12 col-sm-12 text-center">
         <h1 id="main-text" class="display-4 mb-4"> <%= t("landing.welcome").html_safe %></h1>
         <p class="lead offset-lg-2 col-lg-8 col-sm-12 "><%= t("landing.about").html_safe %></p>
+        <div class="offset-lg-3 col-lg-6 col-sm-12">
+          <%= form_with scope: "join", url: room_cust_path, method: :post do |form| %>
+          <div class="input-group">
+            <%= form.text_field :link,
+              class: "form-control join-form",
+              placeholder: "Enter link invitation",
+              readonly: !current_user.nil?, 
+              autofocus: true,
+              maxlength: 99,
+              required: true %>
+            <span class="input-group-append">
+              <button id="room-join" type="submit" class="btn btn-primary btn-sm px-7 form-control join-form">
+                <%= t("room.join") %>
+              </button>
+            </span>
+          </div>
+          <% end %>  
+        </div>
       </div>
     </div>
   </div>

@@ -120,6 +120,9 @@ Rails.application.routes.draw do
   # Join a room by UID
   post '/room/join', to: 'rooms#join_specific_room', as: :join_room
 
+  # to redirect join room page
+  post '/room_cust', to: 'join#join_2', as: :room_cust
+
   # Extended room routes.
   scope '/:room_uid' do
     post '/', to: 'rooms#join'
